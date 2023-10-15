@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/10/13/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a class="link" href="https://hexo.io/">Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link" href="https://hexo.io/docs/">documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link" href="https://hexo.io/docs/troubleshooting.html">troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link" href="https://github.com/hexojs/hexo/issues">GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link" href="https://hexo.io/docs/writing.html">Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link" href="https://hexo.io/docs/server.html">Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link" href="https://hexo.io/docs/generating.html">Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link" href="https://hexo.io/docs/one-command-deployment.html">Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>hexo第一关，怕忘了</title>
+    <url>/2023/10/13/hexo%E7%AC%AC%E4%B8%80%E5%85%B3%EF%BC%8C%E6%80%95%E5%BF%98%E4%BA%86/</url>
+    <content><![CDATA[<p>众所周知，本站基于 Hexo中的Redefine主题 搭建而成，<del>其实只是修改了参数</del></p>
+<h4 id="先把一些以后可能会碰到的问题的解决方案的链接放到这里。。怕出事儿。。"><a href="#先把一些以后可能会碰到的问题的解决方案的链接放到这里。。怕出事儿。。" class="headerlink" title="先把一些以后可能会碰到的问题的解决方案的链接放到这里。。怕出事儿。。"></a>先把一些以后可能会碰到的问题的解决方案的链接放到这里。。怕出事儿。。</h4><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">![这种写法果然还是不行。。](D:\forBlogs\hexo\hereisHandesu\source\_posts\hexo第一关，怕忘了\文章内插入.jpg)</span><br></pre></td></tr></table></figure></div>
+
+<img lazyload src="/images/loading.svg" data-src="/2023/10/13/hexo%E7%AC%AC%E4%B8%80%E5%85%B3%EF%BC%8C%E6%80%95%E5%BF%98%E4%BA%86/%E6%96%87%E7%AB%A0%E5%86%85%E6%8F%92%E5%85%A5.jpg" class title="本地图片的话，需要这种写法才可行">
+
+
+
+<p>又或者我试试网页插入。。成功了！！！</p>
+<p><img lazyload src="/images/loading.svg" data-src="https://i.postimg.cc/Rh3MY1kB/insert1.jpg" alt="真的可以吗。。"></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img 文章内插入.jpg 这种写法就可行 %&#125;</span><br></pre></td></tr></table></figure></div>
+
+
+
+
+
+<p>如何免费搭建基于Hexo的个人博客：<a class="link" href="https://www.bilibili.com/video/BV1ts4y1f7Gu?vd_source=b2c23a67e6ceb33f58c157f590327e2e">超详细！0成本搭建个人网站！！【建议收藏】 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>Hexo官网：<a class="link" href="https://hexo.io/zh-cn/">Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>Redefine主题配置文档：<a class="link" href="https://redefine-docs.ohevan.com/introduction">项目介绍 - Redefine Docs (ohevan.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>​	建议平常写文章的时候多看，可以熟悉里面一些好看的写法</p>
+<p>Hexo 如何插入图片：<a class="link" href="https://www.cnblogs.com/hugochen1024/p/12570656.html">Hexo博客插入图片的方法 - SChen1024 - 博客园 (cnblogs.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>​			或者：[Hexo插入图片_hexo支持jpg文件吗-CSDN博客](<a class="link" href="https://blog.csdn.net/weixin_45509582/article/details/108280827#:~:text=Hexo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87">https://blog.csdn.net/weixin_45509582/article/details/108280827#:~:text=Hexo插入图片 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 1 修改配置文件 2 在根目录下配置文件_config.yml 中有,post_asset_folder%3Afalse改为true。 3 这样在建立文件时，Hexo会自动建立一个与文章同名的文件夹，这样就可以把与该文章相关的所有资源（图片）都放到那个文件夹里方便后面引用 4 我这里放的图片是：sky2.jpg 5 安装插件：hexo-asset-image(插件经测试无问题))</p>
+<p>​	补充个概念：图床（将<strong>本地图片</strong> 变成 <strong>网页图片链接</strong> 的）</p>
+<p>​		被推荐的图床链接：<a class="link" href="https://sm.ms/">Image Upload - SM.MS - Simple Free Image Hosting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>​		测试发现。。这种图床生成的图片链接好像用不了。。</p>
+<p>ICP备案号相关知识：<a class="link" href="https://www.zhihu.com/question/51682518">ICP备案号有什么用？ - 知乎 (zhihu.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>​	记得提早去申请。。？需要吗？</p>
+<p>当前站的 评论区。。。还没搞好。。。</p>
+<p>此外的一些名词：</p>
+<p>​	google static（提供引流的）</p>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+</search>
