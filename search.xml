@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/10/13/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a class="link" href="https://hexo.io/">Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link" href="https://hexo.io/docs/">documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link" href="https://hexo.io/docs/troubleshooting.html">troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link" href="https://github.com/hexojs/hexo/issues">GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link" href="https://hexo.io/docs/writing.html">Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link" href="https://hexo.io/docs/server.html">Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link" href="https://hexo.io/docs/generating.html">Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link" href="https://hexo.io/docs/one-command-deployment.html">Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>hexo第一关，怕忘了</title>
     <url>/2023/10/13/hexo%E7%AC%AC%E4%B8%80%E5%85%B3%EF%BC%8C%E6%80%95%E5%BF%98%E4%BA%86/</url>
     <content><![CDATA[<p>众所周知，本站基于 Hexo中的Redefine主题 搭建而成，<del>其实只是修改了参数</del></p>
@@ -56,6 +38,108 @@
       </categories>
       <tags>
         <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一、基础算法1：前缀和与差分 专题用法&amp;刷题</title>
+    <url>/2023/10/16/%E4%B8%80%E3%80%81%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%951%EF%BC%9A%E5%89%8D%E7%BC%80%E5%92%8C%E4%B8%8E%E5%B7%AE%E5%88%86-%E4%B8%93%E9%A2%98%E7%94%A8%E6%B3%95-%E5%88%B7%E9%A2%98/</url>
+    <content><![CDATA[<p>&#x2F;&#x2F;之后再补上，现在只是写上前缀和与差分等标题</p>
+]]></content>
+      <categories>
+        <category>算法笔记</category>
+      </categories>
+      <tags>
+        <tag>前缀和</tag>
+        <tag>差分</tag>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AVL树基础详解</title>
+    <url>/2023/10/19/AVL%E6%A0%91%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E8%AF%A6%E8%A7%A3/</url>
+    <content><![CDATA[<h3 id="导读："><a href="#导读：" class="headerlink" title="导读："></a>导读：</h3><p>一、AVL树原理简单介绍</p>
+<p>二、AVL树 数据集 与 数据获取、操作</p>
+<p>三、AVL树 部分操作集（暂时不包含 删除结点 操作。。以后如果学成了再补上）</p>
+<h3 id="一、AVL树原理简单介绍："><a href="#一、AVL树原理简单介绍：" class="headerlink" title="一、AVL树原理简单介绍："></a>一、AVL树原理简单介绍：</h3><p>AVL树(平衡二叉树)，是平衡树的一种；平衡树，是 二叉搜索树(BST)的 结构优化版；二叉搜索树，是一种按 <strong>左孩子的数据恒小于右孩子的数据</strong> 规则存放数据的二叉树结构；</p>
+<p>那为什么说 平衡树的结构 普遍优于 二叉搜索树的结构 呢？</p>
+<p>二叉搜索树，顾名思义，就是用来存储特定数据序列后 便于搜索数据的 数据结构，例图如下：</p>
+<p>《 任意一个二叉搜索树的图 》</p>
+<p>这样的话，如果想找一个数据，那只需要O(logn)的时间复杂度就行了</p>
+<p>但是有时也会出现下面这种情况。。</p>
+<p>《 链表二叉搜索树的图 》</p>
+<p>树的结构完全退化成 链表了。。。O(logn)的时间复杂度 不复存在。。。</p>
+<p>于是就有来自苏联的两位科学家 想出了解决方案：利用一种叫做 “旋转” 的操作，来将这种失衡（即<strong>长得不够漂亮，或者说重心不在中间</strong>）的二叉树变成相对平衡的二叉树，操作如下：</p>
+<p>《 旋转的动图 or 视频》</p>
+<p>我们称 zag(x) 为 左旋 —— 即 向左旋转x结点、称 zig(x) 为 右旋 —— 即 向右旋转x结点 </p>
+<p>当然这里只是简单介绍构建平衡树的基础策略之一：旋转 —— 之后还有不用旋转的平衡树，但现在暂时不管它们。</p>
+<p><strong>那我们要以什么作为 此时应该对该节点进行旋转 的标志数据呢？</strong></p>
+<p>两位苏联科学家给出的答案是：利用 <strong>当前结点的平衡因子</strong> —— 即 当前结点的 左右子树高度差（左子树高度 - 右子树高度） —— 来作为 是否旋转当前节点的依据</p>
+<p>因为这个还挺好理解的就不过多赘述 —— 相信大家都能理解的罢(bushi</p>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>区分一下 树的高度 和 树的深度： </summary>
+              <div class="content">
+              <p><strong>树的高度</strong>：从叶子节点向上数 的层数</p><p><strong>树的深度</strong>：从根节点向下数 的层数</p>
+              </div>
+            </details>
+
+
+
+<p>至此，AVL树原理简单阐述完毕~</p>
+<p>如果有讲得特别垃圾的地方，请点出来吧。。本人没什么经验。。。</p>
+]]></content>
+      <categories>
+        <category>算法笔记</category>
+      </categories>
+      <tags>
+        <tag>平衡树</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>位运算应用 经典题目</title>
+    <url>/2023/10/20/%E4%BD%8D%E8%BF%90%E7%AE%97%E5%BA%94%E7%94%A8-%E7%BB%8F%E5%85%B8%E9%A2%98%E7%9B%AE/</url>
+    <content><![CDATA[<p>思路都被折叠起来了，可以在看完题目之后想一想，实在想不出再看思路捏 <del>虽然一般看原链接的题解就行了</del></p>
+<h4 id="部分可用的-位运算常用知识（不解释原理，如果需要解释原理的话直接在评论区滴滴我）："><a href="#部分可用的-位运算常用知识（不解释原理，如果需要解释原理的话直接在评论区滴滴我）：" class="headerlink" title="部分可用的 位运算常用知识（不解释原理，如果需要解释原理的话直接在评论区滴滴我）："></a>部分可用的 位运算常用知识（不解释原理，如果需要解释原理的话直接在评论区滴滴我）：</h4><p>lowbit运算 —— 用于 求出一个数字的二进制形式 最低位的1，并搞成一个数字</p>
+<p>如 lowbit(44)，先有 44的二进制形式<code>00101100</code>，然后我们可以知道 最低位是第 2 位（从右往左数，并从0开始数），则lowbit(44) &#x3D; <code>00000100</code>，即 lowbit(44) &#x3D; 4，这个数字就是lowbit(44)的结果</p>
+<p>lowbit运算的公式：<code>lowbit(n) = n &amp; (~n + 1) = n &amp; -n</code></p>
+<h4 id="1、异或的-位信息累积-性质"><a href="#1、异或的-位信息累积-性质" class="headerlink" title="1、异或的 位信息累积 性质"></a>1、异或的 <strong>位信息累积</strong> 性质</h4><p>相信大家都接触过 无中间变量交换两个数 这种题目吧？</p>
+<p>没有吗？那我简单提一提罢（</p>
+<p>一般我们交换两个数是这样操作的：</p>
+<div class="highlight-container" data-rel="C++"><figure class="iseeu highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> a = <span class="number">10</span>, b = <span class="number">20</span>, tmp;</span><br><span class="line">tmp = a; a = b; b = tmp;<span class="comment">//运用了中间变量</span></span><br></pre></td></tr></table></figure></div>
+
+<p>但还有这样的：</p>
+<div class="highlight-container" data-rel="C++"><figure class="iseeu highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> a = <span class="number">10</span>, b = <span class="number">20</span>; </span><br><span class="line">a = a + b; b = a - b; a = a - b;</span><br></pre></td></tr></table></figure></div>
+
+<p>能看懂为什么这个东西能这么交换吗？</p>
+<p>其实就是因为<code>a = a + b</code> 时，我们将 a的信息和b的信息 <strong>累积到a这个空间里</strong>，使得 a这个空间能够存两份数据，而此时b的空间内存的值并没有改变，因此b能帮助我们从处理过后的a中 <strong>解码出原先的a值</strong> —— 以 a - b 的形式得到原先的a值；</p>
+<p>这么一说是不是就很清晰了呢？</p>
+<p>那异或运算也是同理，也能有这样的操作：</p>
+<div class="highlight-container" data-rel="C++"><figure class="iseeu highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> a = <span class="number">10</span>, b = <span class="number">20</span>;</span><br><span class="line">a = a ^ b; b = a ^ b; a = a ^ b;</span><br></pre></td></tr></table></figure></div>
+
+<p>说是同理，是因为 异或 能<strong>累积两个数中的位的有效信息</strong>，这里的 位的有效信息 指的就是 两个数字有哪些位相同，哪些位不相同；当然，b空间存放的数化成二进制后 也同样能从 被处理过的a中 解码出原先的a值 —— 用 a ^ b 的方式。</p>
+<p>所以，我们能发现 —— 异或运算 能够累积两个数中的位的有效信息 这一点，就足够我们在很多地方用到它了！！</p>
+<h4 id="2、异或的-同假异真-性质"><a href="#2、异或的-同假异真-性质" class="headerlink" title="2、异或的 同假异真 性质"></a>2、异或的 <strong>同假异真</strong> 性质</h4><p><a class="link" href="https://leetcode.cn/problems/single-number/description/">136. 只出现一次的数字 - 力扣（LeetCode） <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>思路： </summary>
+              <div class="content">
+              <p>异或运算，就是 相同二进制上 如果数码相同，则 运算得到0；如果相同二进制位上的数码不同，则 运算得到1；</p><p>如：</p><p>​	对 00001010(10) 和 00001111(15) 进行异或运算（C++代码写为<code>10 ^ 15</code>），最终得到 00000101(5)；</p><p>而我们很容易发现，如果进行异或运算的数字 是同一个的话，那他们的二进制位形式完全相同，因而它们的异或结果就一定会是 0 —— 以此性质，我们就能确认两个数是否相同，也可以借助这个性质，<strong>将 相同的两个数 通过 异或运算 消除掉</strong>。</p><div class="highlight-container" data-rel="C++"><figure class="iseeu highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//AC代码</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">singleNumber</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; nums)</span> </span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="type">int</span> ans = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; nums.<span class="built_in">size</span>(); i++)</span><br><span class="line">            ans ^= nums[i];</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></div>
+              </div>
+            </details>
+
+<p><a class="link" href="https://leetcode.cn/problems/single-number-iii/solutions/587516/zhi-chu-xian-yi-ci-de-shu-zi-iii-by-leet-4i8e/">260. 只出现一次的数字 III - 力扣（LeetCode） <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>基于上一题，我们可以得到 异或能用来消去相同数字 这一应用，但是对于这道 存在两个不同数字 的异或累积……我们要怎么做嘞？</p>
+<details class="gray" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>思路： </summary>
+              <div class="content">
+              <p>当然还是 先求全体数字的异或累积 辣！！</p><p>然后你就能得到 一个将两个不同的数字 <code>a</code>，<code>b</code> 异或在一起的最终结果<code>res</code></p><p>但是要怎么将这两个数从<code>res</code>中分离开嘞？？</p><p>只需要找到<code>res</code>内任意一个是 1 的二进制位，这个 1 表示的含义就是：<code>a</code>和<code>b</code>这两个数 在这个位上 不相同。这个位可以用lowbit运算来找 最方便。</p><p>我们因此可以依据 这个不相同的位k上的数码是否相同 来对 原来的数据进行分类 —— 这样就能保证 <code>a</code>和<code>b</code>在不同的分类上了，因为这俩在这个位上的数码 必不相同。</p><p>而其他的数字又必有一个完全相同的数字，且 这两个完全相同的数字 也必会被归类到同一个分类里，故<strong>对两个分类各自求异或累积</strong>，结果就能得到 两个数，这两个数就是<code>a</code>和<code>b</code>捏~</p><div class="highlight-container" data-rel="C++"><figure class="iseeu highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//AC代码</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">singleNumber</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; nums)</span> </span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="type">int</span> n = nums.<span class="built_in">size</span>(), tmp = nums[<span class="number">0</span>];</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt; n; i++) tmp ^= nums[i];</span><br><span class="line">        </span><br><span class="line">        <span class="comment">//int spedigit = tmp &amp; (-tmp);</span></span><br><span class="line">        <span class="type">int</span> spedigit = tmp == INT_MIN ? <span class="number">1</span> : tmp &amp; (-tmp);<span class="comment">//防止溢出</span></span><br><span class="line">        <span class="type">int</span> tmp1 = <span class="number">0</span>, tmp2 = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(nums[i] &amp; spedigit) tmp1 ^= nums[i];</span><br><span class="line">            <span class="keyword">else</span> tmp2 ^= nums[i];</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> &#123;tmp1, tmp2&#125;;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></div><p>关于防止溢出 这个点，这里不多讲，因为跟 计算机存储数字的方式有关，但是必须得会，不然没法玩转 位运算</p>
+              </div>
+            </details>
+
+
+
+<h3 id="欢迎各位大佬批评（轻喷）"><a href="#欢迎各位大佬批评（轻喷）" class="headerlink" title="欢迎各位大佬批评（轻喷）"></a>欢迎各位大佬批评<del>（轻喷）</del></h3>]]></content>
+      <categories>
+        <category>算法笔记</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+        <tag>位运算</tag>
       </tags>
   </entry>
 </search>
