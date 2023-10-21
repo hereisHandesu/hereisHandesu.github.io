@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>一、基础算法1：前缀和与差分 专题用法&amp;刷题</title>
+    <url>/2023/10/16/%E4%B8%80%E3%80%81%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%951%EF%BC%9A%E5%89%8D%E7%BC%80%E5%92%8C%E4%B8%8E%E5%B7%AE%E5%88%86-%E4%B8%93%E9%A2%98%E7%94%A8%E6%B3%95-%E5%88%B7%E9%A2%98/</url>
+    <content><![CDATA[<p>&#x2F;&#x2F;之后再补上，现在只是写上前缀和与差分等标题</p>
+]]></content>
+      <categories>
+        <category>算法笔记</category>
+      </categories>
+      <tags>
+        <tag>前缀和</tag>
+        <tag>差分</tag>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo第一关，怕忘了</title>
     <url>/2023/10/13/hexo%E7%AC%AC%E4%B8%80%E5%85%B3%EF%BC%8C%E6%80%95%E5%BF%98%E4%BA%86/</url>
     <content><![CDATA[<p>众所周知，本站基于 Hexo中的Redefine主题 搭建而成，<del>其实只是修改了参数</del></p>
@@ -85,22 +99,8 @@
         <category>算法笔记</category>
       </categories>
       <tags>
+        <tag>刷题</tag>
         <tag>位运算</tag>
-        <tag>刷题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一、基础算法1：前缀和与差分 专题用法&amp;刷题</title>
-    <url>/2023/10/16/%E4%B8%80%E3%80%81%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%951%EF%BC%9A%E5%89%8D%E7%BC%80%E5%92%8C%E4%B8%8E%E5%B7%AE%E5%88%86-%E4%B8%93%E9%A2%98%E7%94%A8%E6%B3%95-%E5%88%B7%E9%A2%98/</url>
-    <content><![CDATA[<p>&#x2F;&#x2F;之后再补上，现在只是写上前缀和与差分等标题</p>
-]]></content>
-      <categories>
-        <category>算法笔记</category>
-      </categories>
-      <tags>
-        <tag>刷题</tag>
-        <tag>前缀和</tag>
-        <tag>差分</tag>
       </tags>
   </entry>
 </search>
