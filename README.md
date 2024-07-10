@@ -13,8 +13,7 @@ Powered by Hexo and redefine
 Thanks for visiting my blogs if you want to read them~~
 
 
-
-国外or科学上网了的欢迎来康康(Click this one when not in China or use VPN in China)：[](https://hereisHandesu.github.io)
+国外or科学上网了的欢迎来康康(Click this one when not in China or use VPN in China)：[欢迎光临寒舍](https://hereisHandesu.github.io)
 
 
 
