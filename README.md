@@ -14,10 +14,7 @@ Thanks for visiting my blogs if you want to read them~~
 
 
 
-国内用这个网址更流畅(Click this one when in China)：[用gitee代理的](https://hereisHandesu.gitee.io)
-
-
-国外or科学上网了的可以用用这个网址(Click this one when not in China or use VPN in China)：[用github代理的](https://hereisHandesu.github.io)
+国外or科学上网了的欢迎来康康(Click this one when not in China or use VPN in China)：[](https://hereisHandesu.github.io)
 
 
 
